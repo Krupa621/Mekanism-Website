@@ -1,0 +1,204 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.CaseStudiesContainer {
+  margin: 60px auto;
+  max-width: 1266px;
+
+  @media screen and (max-width: $large) {
+    max-width: 992px;
+    margin: 60px 20px;
+  }
+  @media screen and (max-width: $medium) {
+    // margin: 0;
+  }
+  @media screen and (max-width: $extra-medium) {
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.CaseStudiesWrapper {
+  margin-bottom: 50px;
+  border: 1px solid #d9d6d6;
+  border-radius: 40px;
+
+  @media screen and (max-width: $medium) {
+    // margin: 20px 40px;
+  }
+
+  .CaseStudyData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    gap: 40px;
+    @media screen and (max-width: 1200px) {
+      img {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: $medium) {
+      display: block;
+    }
+    @media screen and (max-width: $extra-medium) {
+      flex-direction: column;
+      gap: 0;
+      .CaseStudyImage {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: $extra-medium) {
+      gap: 1rem;
+    }
+    .CaseStudyImage {
+      width: 100%;
+    }
+    .caseStudyDetails {
+      margin: 10px;
+      padding: 20px;
+      width: 100%;
+
+      .techInfo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        p {
+          font-weight: 400;
+          color: var(--color-txt-light);
+          margin: 0;
+        }
+      }
+      h2 {
+        color: var(--text-color);
+        font-weight: 600;
+        &:hover {
+          color: var(--color-purple-primary);
+        }
+      }
+      .CaseStudyObjectInfo {
+        font-weight: 400;
+        color: var(--text-color);
+        margin-bottom: 10px;
+      }
+      .country_details {
+        max-width: 250px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-weight: 400;
+          color: var(--text-color);
+          margin-bottom: 10px;
+        }
+      }
+      .tech_details {
+        max-width: 328px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .explore_btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 180px;
+        background: #efa1f9;
+        border-radius: 24px;
+        padding: 10px 20px;
+        margin-top: 20px;
+
+        p {
+          margin: 0;
+          color:#e132f1;
+          font-weight: 400;
+        }
+      }
+      ul {
+        li {
+          color: var(--black-txt-color);
+          font-weight: 400;
+          &::marker {
+            font-size: 20px;
+            background: #202020;
+          }
+        }
+      }
+      @media screen and (max-width: $small) {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        margin: 10px;
+      }
+    }
+  }
+  &:hover {
+    .explore_btn {
+      background: #e684ef;
+    }
+  }
+  &:hover {
+    border-radius: 30px;
+    background: #fef5fd;
+  }
+  // &:hover {
+  //     h2 {
+  //         color:#324FF1;
+  //     }
+  // }
+}
+.caseStudyExploreTitle {
+  max-width: 730px;
+  margin-top: 140px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $large) {
+    margin-bottom: 60px;
+    max-width: 787px;
+  }
+  @media screen and (max-width: $medium) {
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: $extra-medium) {
+    display: none !important;
+  }
+  h2 {
+    font-weight: 600;
+  }
+  span {
+    color: #e132f1;
+    margin: 0;
+  }
+}
+.caseStudyExploreTitleMobileView {
+  display: none;
+
+  @media screen and (max-width: $extra-medium) {
+    display: block;
+    margin: 0 auto 40px;
+    h2 {
+      font-weight: 600;
+    }
+    span {
+      color:#324FF1;
+      margin: 0;
+      font-weight: 600;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .CaseStudiesWrapper .CaseStudyData .caseStudyDetails .country_details,
+  .CaseStudiesWrapper .CaseStudyData .caseStudyDetails .tech_details,
+  .CaseStudiesWrapper .CaseStudyData .caseStudyDetails .explore_button,
+  .CaseStudiesWrapper .CaseStudyData .caseStudyDetails .CaseStudyObjectInfo {
+    display: none !important;
+  }
+  .caseStudyDetails {
+    margin: 10px;
+  }
+}

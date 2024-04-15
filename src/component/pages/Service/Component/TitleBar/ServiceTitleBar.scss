@@ -1,0 +1,26 @@
+.service-header {
+  background: linear-gradient(
+    97.29deg,
+    #bbffff 3.36%,
+    #e2ffff 26.53%,
+    #dbd6ff 52.77%,
+    #d2cbff 75.13%,
+    #bbb2ff 96.66%
+  );
+}
+.service-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .service-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .service-container {
+    gap: 40px;
+  }
+}

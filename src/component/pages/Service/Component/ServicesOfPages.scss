@@ -1,0 +1,193 @@
+// .serviceContainer {
+//   max-width: 1266px;
+//   margin: 80px auto;
+//   padding-left: 20px;
+//   h3 {
+//     font-weight: 400;
+//     color: var(--color-txt-light);
+//     margin-bottom: 20px;
+//   }
+//   .ServicesItems {
+//     max-width: 790px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     gap: 10px;
+//     h4 {
+//       font-weight: 400;
+//       margin-bottom: 20px;
+//     }
+//   }
+// }
+
+// // .serviceHeroPart {
+// //   max-width: 1020px;
+// // }
+// // .service_title_container {
+// //   background: linear-gradient(
+// //     97.29deg,
+// //     #eac7cc 3.36%,
+// //     #e7d8ec 26.53%,
+// //     #e3d1ed 49.37%,
+// //     #dbddf0 70.75%,
+// //     #b7e2ee 96.66%
+// //   );
+// //   border-radius: 60px;
+// //   padding: 30px 70px 80px;
+
+// //   max-width: 1462px;
+// //   margin: 20px auto 0;
+// // }
+// // .service_title_container_blog {
+// //   background: linear-gradient(
+// //     97.29deg,
+// //     #c4e1e5 3.36%,
+// //     #ddeef0 34.79%,
+// //     #dee8f3 64.92%,
+// //     #bacadc 96.6%
+// //   );
+// // }
+// // .service_title_container_mobiledev {
+// //   background: linear-gradient(
+// //     130deg,
+// //     #d4eef3 0%,
+// //     #d7eaef 24.83%,
+// //     #e2ecf0 52.96%,
+// //     #e9e2f1 76.92%,
+// //     #deceec 100%
+// //   );
+// //   border-radius: 60px;
+// //   padding: 40px 40px 60px;
+// // }
+// // .service_title_container_IoSDev {
+// //   background: linear-gradient(
+// //     130deg,
+// //     #d8d9e9 0%,
+// //     #dadcf0 24.83%,
+// //     #d5ddf6 52.96%,
+// //     #cad5f2 76.92%,
+// //     #c3ceec 100%
+// //   );
+// //   border-radius: 60px;
+// //   padding: 40px 40px 60px;
+// // }
+// // .service_title_container_AndroidDev {
+// //   background: linear-gradient(
+// //     131deg,
+// //     #efefee 0%,
+// //     #e6ece4 24.83%,
+// //     #d8ecd8 52.96%,
+// //     #cbebcd 76.92%,
+// //     #bfe8c3 100%
+// //   );
+// //   border-radius: 60px;
+// //   padding: 40px 40px 60px;
+// // }
+// // .service_title_container_webdev {
+// //   padding: 40px 40px 60px;
+// //   border-radius: 60px;
+// //   background: linear-gradient(
+// //     130deg,
+// //     #ecb4b5 0%,
+// //     #eacad9 24.83%,
+// //     #ecccf4 52.96%,
+// //     #d4d1f2 76.92%,
+// //     #a4d2f1 100%
+// //   );
+// // }
+// // .service_title_container_frontEnd {
+// //   padding: 40px 40px 60px;
+// //   border-radius: 60px;
+// //   background: linear-gradient(
+// //     130deg,
+// //     #b5e0eb 0%,
+// //     #c3e8f1 24.83%,
+// //     #dbeaef 52.96%,
+// //     #e2e7ee 76.92%,
+// //     #cfd3f4 100%
+// //   );
+// // }
+// // .service_title_container_BackEnd {
+// //   padding: 40px 40px 60px;
+// //   border-radius: 60px;
+// //   background: linear-gradient(
+// //     131deg,
+// //     #c9deb1 0%,
+// //     #d4e1c6 24.83%,
+// //     #e7ebe4 52.96%,
+// //     #dbd4e5 76.92%,
+// //     #c5b9d5 100%
+// //   );
+// // }
+// /* ========responsive ============= */
+// @media screen and (max-width: 1400px) {
+//   .service_title_container {
+//     padding: 30px 45px 45px;
+//     max-width: 1200px;
+//   }
+// }
+// @media screen and (max-width: 1200px) {
+//   .service_title_container {
+//     padding: 20px 40px 40px;
+//     border-radius: 0;
+//     margin: 0 auto;
+//   }
+// }
+// @media screen and (max-width: 992px) {
+//   .service_title_container {
+//     padding: 0;
+//   }
+//   .serviceHeroPart h2,
+//   .serviceHeroPart p {
+//     max-width: 660px;
+//   }
+
+//   .container,
+//   .container-md,
+//   .container-sm {
+//     max-width: 935px;
+//   }
+//   .service_title_container_IoSDev,
+//   .service_title_container_AndroidDev,
+//   .service_title_container_webdev,
+//   .service_title_container_frontEnd,
+//   .service_title_container_BackEnd {
+//     padding: unset;
+//     border-radius: unset;
+//     margin-top: 0 !important;
+//   }
+//   .serviceContainer,
+//   .mordernSiteWeb {
+//     padding-right: 1rem !important;
+//     padding-left: 1rem !important;
+//   }
+// }
+// @media screen and (max-width: 768px) {
+//   .serviceContainer {
+//     margin-top: 60px !important;
+//   }
+// }
+// @media screen and (max-width: 554px) {
+//   .ServicesItems {
+//     flex-direction: column;
+//     gap: 0 !important;
+//     align-items: flex-start !important;
+//   }
+//   .serviceContainer {
+//     padding: 0 20px !important;
+//   }
+// }
+// @media screen and (max-width: 360px) {
+//   .navbar-brand {
+//     margin: 0;
+//   }
+//   .navbar-brand img {
+//     width: 80% !important;
+//   }
+//   .serviceContainer {
+//     margin-top: 20px !important;
+//   }
+//   .ServicesItems h4 {
+//     margin-bottom: 10px !important;
+//   }
+// }

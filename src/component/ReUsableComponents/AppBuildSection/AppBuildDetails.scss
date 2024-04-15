@@ -1,0 +1,37 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.AppBuildContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  @media screen and (max-width: $extra-medium) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  h2 {
+    max-width: 453px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-color);
+    @media screen and (max-width: $extra-medium) {
+      max-width: unset;
+    }
+  }
+  p {
+    max-width: 410px;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: 500;
+    @media screen and (max-width: $medium) {
+      max-width: 256px;
+    }
+    @media screen and (max-width: $extra-medium) {
+      max-width: unset;
+    }
+  }
+}

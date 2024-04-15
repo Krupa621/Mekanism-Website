@@ -1,0 +1,87 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.TechStack_Container {
+  background: #ebedfe;
+  padding: 75px;
+  @media only screen and (max-width: $large) {
+    padding: 75px 30px;
+  }
+  @media only screen and (max-width: $extra-small) {
+    padding: 0px;
+  }
+  h2 {
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  p {
+    margin: 30px 0 40px;
+    max-width: 680px;
+    color: var(--text-color);
+  }
+  img {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+
+    &:hover {
+      background: var(--text-color, #1b1b1b);
+    }
+  }
+  .TechLaung {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .TechStackWrapper {
+    gap: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .leftMobTech {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .crossTech {
+        display: flex;
+        flex-direction: column;
+        .crossIcons {
+          display: flex;
+          gap: 20px;
+        }
+      }
+      .androidTech {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    h3 {
+      font-weight: 600;
+      color: var(--text-color);
+    }
+    .TechStackContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      p {
+        max-width: 680px;
+        color: var(--text-color);
+        margin: 30px 0 40px;
+      }
+    }
+    @media only screen and (max-width: $medium) {
+      display: none;
+    }
+  }
+  .tableticon {
+    display: none;
+    @media only screen and (max-width: $medium) {
+      display: block;
+    }
+  }
+}

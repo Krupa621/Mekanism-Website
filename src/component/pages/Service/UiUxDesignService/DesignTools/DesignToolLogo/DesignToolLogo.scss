@@ -1,0 +1,36 @@
+.desgintoollogo-wrapper {
+  .toollogos-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .toollogo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .desgintoollogo-wrapper {
+    .toollogos-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      .toollogo-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        h4 {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .desgintoollogo-wrapper {
+    .toollogos-wrapper {
+      .toollogo-wrapper {
+        width: 28%;
+      }
+    }
+  }
+}

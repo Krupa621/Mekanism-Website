@@ -1,0 +1,37 @@
+.blogcard-wrapper {
+  width: 31.75%;
+  border-radius: 40px;
+  background: var(--color-hover-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .blogcard-text-wrapper {
+    padding: 20px;
+    h4 {
+      color: var(--text-color);
+      font-weight: 400;
+    }
+    .direction {
+      display: flex;
+      gap: 6px;
+      align-items: baseline;
+      i {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    h2 {
+      color: var(--text-color);
+      font-weight: 400;
+      &:hover {
+        color: var(--color-purple-primary);
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  &:hover {
+    background: #f9d6fc;
+  }
+}

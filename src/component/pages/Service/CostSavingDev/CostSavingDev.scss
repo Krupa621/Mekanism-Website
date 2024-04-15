@@ -1,0 +1,25 @@
+.cost-saving-header {
+  background: linear-gradient(
+    130deg,
+    #e1d7f2 0%,
+    #e9e4f2 24.83%,
+    #dbe5f4 52.96%,
+    #cae6f1 76.92%,
+    #88f8f8 100%
+  );
+}
+.costsaving-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .costsaving-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .costsaving-container {
+    gap: 40px;
+  }
+}

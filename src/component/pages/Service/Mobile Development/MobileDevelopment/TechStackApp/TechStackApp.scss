@@ -1,0 +1,21 @@
+.TechStackAppContainer {
+  max-width: 1266px;
+  margin: 0 auto;
+  .TechStackAppWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    h2 {
+      font-weight: 600;
+      margin: 0;
+      color: var(--text-color);
+    }
+    p {
+      max-width: 463px;
+      color: var(--text-color);
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+}

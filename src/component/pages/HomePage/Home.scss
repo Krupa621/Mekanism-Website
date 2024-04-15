@@ -1,0 +1,41 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.HomePage {
+  // margin: 0 20px;HomePage
+
+  .home-header {
+    background: linear-gradient(
+      130deg,
+      rgb(224, 187, 255) 0%,
+      #f2e2ff 24.83%,
+      #fed6ff 52.96%,
+      #ffcbdc 76.92%,
+      #f9b2ff 100%
+    );
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .HomePage {
+    .home-container {
+      gap: 80px;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .HomePage {
+    .home-container {
+      gap: 40px;
+    }
+  }
+}

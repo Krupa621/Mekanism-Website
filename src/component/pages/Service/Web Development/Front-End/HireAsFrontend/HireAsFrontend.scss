@@ -1,0 +1,31 @@
+.hireasfrontend-wrapper {
+  //   width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  .memberdetailspart-container {
+    display: flex;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .hireasfrontend-wrapper {
+    width: 93.75%;
+    .memberdetailspart-container {
+      flex-direction: column-reverse;
+      margin-top: 40px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .hireasfrontend-wrapper {
+    width: 91.11%;
+    .memberdetailspart-container {
+      .detailcontent-container {
+        .detailtext {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

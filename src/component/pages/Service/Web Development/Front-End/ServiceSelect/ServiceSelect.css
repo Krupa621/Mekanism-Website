@@ -1,0 +1,23 @@
+.SelectServiceWidth {
+  max-width: 780px;
+}
+.imgConsoulr {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .consultantImg {
+    display: flex;
+  }
+  .imgConsoulr {
+    max-width: 118px;
+    height: 130px;
+  }
+  .consultantImg {
+    order: 2;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .imgConsoulr {
+    width: unset;
+  }
+}

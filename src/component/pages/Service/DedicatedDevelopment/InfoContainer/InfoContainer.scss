@@ -1,0 +1,33 @@
+.info-wrapper {
+  display: flex;
+  max-width: 1266px;
+  // width: 68.75%;
+  margin: 80px auto auto auto;
+  justify-content: space-between;
+  p {
+    width: 43.36%;
+  }
+  .Infomation {
+    .InfoContent {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .info-wrapper {
+    width: 93.75%;
+    flex-direction: column;
+    gap: 40px;
+    p {
+      width: auto;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .info-wrapper {
+    width: 91.11%;
+    gap: 20px;
+  }
+}

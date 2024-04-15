@@ -1,0 +1,43 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.AndroidContainer {
+  margin-top: 140px;
+  background: var(--color-purple-primary);
+  .AndroidWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1266px;
+    align-items: center;
+    padding: 0 20px;
+    @media screen and (max-width: $medium) {
+      padding: 50px 0;
+    }
+    .AndroidContent {
+      h3 {
+        font-weight: 600;
+        color: var(--color-white);
+        margin-bottom: 20px;
+        max-width: 530px;
+        @media screen and (max-width: $medium) {
+          max-width: 330px;
+        }
+      }
+      p {
+        margin: 0;
+        color: var(--color-white);
+        max-width: 610px;
+      }
+    }
+    img {
+      padding-top: 70px;
+      @media screen and (max-width: $medium) {
+        display: none;
+      }
+    }
+  }
+}

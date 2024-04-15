@@ -1,0 +1,32 @@
+.ListDetailscontainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1266px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 40px;
+  border-radius: 50px;
+  background: #d4baba;
+  .ListDetailsWrapper {
+    h2 {
+      font-weight: 400;
+      margin-bottom: 32px;
+      color: var(--text-color);
+    }
+    .ListContent {
+      display: flex;
+      margin-bottom: 32px;
+
+      h3 {
+        font-weight: 400;
+        margin: 0;
+        color: var(--text-color);
+      }
+      p {
+        font-weight: 400;
+        margin: 0;
+        color: var(--color-txt-light);
+      }
+    }
+  }
+}

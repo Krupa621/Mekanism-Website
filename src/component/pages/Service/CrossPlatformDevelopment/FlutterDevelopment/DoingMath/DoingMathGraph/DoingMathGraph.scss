@@ -1,0 +1,68 @@
+.doingmath-graph-wrapper {
+  max-width: 1266px;
+  margin: auto;
+  border-radius: 50px;
+  background: var(--color-hover-light);
+  padding: 80px 0px;
+  margin-top: -40px;
+  .dpoingmath-graph {
+    width: 95.23%;
+    margin-left: 6.75rem;
+    .graph-links {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+      button {
+        border-radius: 24px;
+        background: transparent;
+        display: flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        border: none;
+        &:hover {
+          background: var(--color-purple-primary);
+          color: var(--color-white);
+        }
+      }
+      .active {
+        background: var(--color-purple-primary);
+        color: var(--color-white);
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .doingmath-graph-wrapper {
+    max-width: 1140px;
+    .dpoingmath-graph {
+      margin-left: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .doingmath-graph-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .doingmath-graph-wrapper {
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 40px 0px;
+    .dpoingmath-graph {
+      margin-left: 0px;
+      width: 93.75%;
+      margin: auto;
+      .graph-links {
+        gap: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .doingmath-graph-wrapper {
+    width: 213%;
+  }
+}

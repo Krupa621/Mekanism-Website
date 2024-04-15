@@ -1,0 +1,25 @@
+.LanIconHover:hover {
+  background: var(--text-color, #1b1b1b);
+}
+.LanIconHover {
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--icon-background-40, #a1aef9);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.TechStackWrapperItems {
+  border-radius: 18px 0px 0px 18px;
+  background: var(--color-purple-primary);
+  padding: 60px 140px 60px 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .TechStackWrapperItems {
+    padding: 60px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .TechStackWrapperItems {
+    padding: 60px 30px;
+  }
+}

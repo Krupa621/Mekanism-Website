@@ -1,0 +1,8 @@
+.line {
+  background: #f8f8fb;
+  max-width: 1266px;
+  height: 8px;
+}
+.coreWidthContent {
+  max-width: 760px;
+}

@@ -1,0 +1,16 @@
+.TechContainer {
+  width: 100%;
+  margin: 120px auto 80px;
+  h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  p {
+    padding: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: var(--text-color);
+    max-width: 463px;
+  }
+}

@@ -1,0 +1,57 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.InsightsContainer {
+  padding: 0;
+  margin-bottom: 30px;
+  .InsightWrapper {
+    background: #ebedfe;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 100%;
+    margin: 0 0.5rem;
+
+    &:hover {
+      background: #d6dcfc;
+      border-radius: 40px;
+      h3 {
+        color:#324FF1;
+      }
+    }
+
+    .InsightBox {
+      padding: 1.5rem;
+      .InsightContent {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 10px;
+        align-items: center;
+        p {
+          font-weight: 400;
+          margin: 0;
+          color: var(--text-color);
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: var(--text-color);
+      }
+      p {
+        font-weight: 400;
+        color: var(--text-color);
+      }
+    }
+    .InsightImg {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.flutter-header {
+  background: linear-gradient(
+    130deg,
+    #e2f3e0 0%,
+    #e2efe1 24.83%,
+    #e2ebe5 52.96%,
+    #cbdde7 76.92%,
+    #baddef 100%
+  );
+}
+
+.flutter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .flutter-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .flutter-container {
+    gap: 40px;
+  }
+}

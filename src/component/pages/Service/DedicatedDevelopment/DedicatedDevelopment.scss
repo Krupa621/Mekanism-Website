@@ -1,0 +1,26 @@
+.react-native-header {
+  background: linear-gradient(
+    131deg,
+    #dfeee7 0%,
+    #e2efe9 24.83%,
+    #e7edec 52.96%,
+    #eaedf0 76.92%,
+    #dce9f2 100%
+  );
+}
+
+.dedicated-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media (max-width: 768px) {
+  .dedicated-container {
+    gap: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .dedicated-container {
+    gap: 40px;
+  }
+}

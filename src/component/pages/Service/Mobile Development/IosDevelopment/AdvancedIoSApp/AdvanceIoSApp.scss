@@ -1,0 +1,19 @@
+.AdvanceIoSAppContainer {
+  background: #1b1b1b;
+  .AdvanceWrapper {
+    display: flex;
+    max-width: 1266px;
+    margin: 140px auto 80px;
+    justify-content: space-between;
+    padding: 20px;
+    h2 {
+      font-weight: 600;
+      color: var(--color-white);
+    }
+    p {
+      margin-top: 10px;
+      color: var(--color-white);
+      font-weight: 400;
+    }
+  }
+}

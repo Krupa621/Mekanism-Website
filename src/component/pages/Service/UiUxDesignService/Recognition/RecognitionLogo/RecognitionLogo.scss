@@ -1,0 +1,15 @@
+.recognitionlogo-wrapper {
+  width: 23.06%;
+  img {
+    width: 100%;
+  }
+  .logo-detail {
+    text-align: center;
+    opacity: 0;
+  }
+  &:hover {
+    .logo-detail {
+      opacity: 1;
+    }
+  }
+}

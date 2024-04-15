@@ -1,0 +1,28 @@
+.TechStackContainer {
+  max-width: 1266px;
+
+  .TechStackWrapper {
+    display: flex;
+    gap: 10px;
+    p {
+      padding: 10px;
+      font-weight: 500;
+      border-radius: 24px;
+      background: var(--mekansim,#324FF1);
+      color: var(--color-white);
+    }
+  }
+  .TechStackWrapperItems {
+    margin-top: 20px;
+    .TechStackContent {
+      display: flex;
+      gap: 10px;
+      .TechStackDetail {
+        text-align: center;
+        h2 {
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+}

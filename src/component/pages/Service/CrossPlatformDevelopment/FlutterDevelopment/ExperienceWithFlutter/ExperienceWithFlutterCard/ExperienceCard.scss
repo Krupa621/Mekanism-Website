@@ -1,0 +1,61 @@
+.experiencecard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .experiencecard-leftside {
+    width: 39.49%;
+    .techpart-wrapper {
+      display: flex;
+      gap: 50px;
+    }
+    .github {
+      display: flex;
+      gap: 10px;
+      align-items: baseline;
+    }
+    .button-wrapper {
+      display: flex;
+      gap: 24px;
+    }
+    button {
+      border-radius: 24px;
+      background:#324FF1;
+      display: flex;
+      padding: 10px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: fit-content;
+      color: #fff;
+      border: none;
+    }
+  }
+  .experiencecard-img-side {
+    width: 54.66%;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .experiencecard-wrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+    .experiencecard-img-side {
+      width: 100%;
+    }
+    .experiencecard-leftside {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .experiencecard-wrapper {
+    .experiencecard-leftside {
+      gap: 10px;
+    }
+  }
+}

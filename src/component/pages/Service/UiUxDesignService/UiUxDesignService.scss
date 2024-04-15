@@ -1,0 +1,25 @@
+.uiux-header {
+  background: linear-gradient(
+    130deg,
+    #f2f2f5 0%,
+    #efeff2 24.83%,
+    #e8e3f2 52.96%,
+    #ded1f4 76.92%,
+    #ceb9f0 100%
+  );
+}
+.uiux-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .uiux-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .uiux-container {
+    gap: 40px;
+  }
+}

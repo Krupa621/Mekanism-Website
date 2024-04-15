@@ -1,0 +1,46 @@
+.appItems {
+  max-width: 812px;
+}
+.ApplicationDetailing {
+  padding: 80px;
+  border-radius: 20px;
+  background: var(--card-background-5, #f5f6fe);
+}
+.AppWidth {
+  max-width: 812px;
+}
+.appItemWidth {
+  max-width: 502px;
+}
+.hoverBtnSelect:hover {
+  border-radius: 24px;
+  background: var(--mekansim,#324FF1);
+  /* padding: 4px; */
+  color: white;
+}
+@media screen and (max-width: 992px) {
+  .ApplicationDetailing {
+    padding: 40px;
+  }
+  .appItemWidth {
+    order: 2;
+    max-width: unset;
+  }
+
+  .appItems {
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ApplicationDetailing {
+    padding: 20px;
+  }
+  .AppHeaderItemName {
+    padding: 0 !important;
+  }
+  .appItems {
+    justify-content: unset;
+  }
+}

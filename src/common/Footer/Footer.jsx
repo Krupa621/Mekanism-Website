@@ -1,0 +1,45 @@
+export const FooterItemListWrapper = [
+  {
+    heading: 'Service',
+    subheadingFirst: 'iOS app Development',
+    subheadingSecond: 'Android app development',
+    subheadingThird: 'Flutter App Development',
+    subheadingForth: 'Web Development',
+    subheadingFifth: 'UI/UX Design',
+    subheadingSix: 'Quality Assurance',
+    subheadingSeventh: 'DevOps Services',
+  },
+  {
+    heading: 'Expertice',
+    subheadingFirst: 'Healthcare',
+    subheadingSecond: 'Logistics',
+    subheadingThird: 'FinTech',
+    subheadingForth: 'Marketplace',
+    subheadingFifth: 'Retail',
+    subheadingSix: 'Travel',
+    subheadingSeventh: 'Education',
+  },
+  {
+    heading: 'Insights',
+    subheadingFirst: 'App development cost',
+    subheadingSecond: 'How to build ridesharing',
+    subheadingThird: 'How to build a fitness app',
+    subheadingForth: 'Build a streaming app',
+    subheadingFifth: 'CRM htmlFor Agriculture',
+    subheadingSix: 'How to build a CRM',
+    subheadingSeventh: 'Web design process',
+  },
+  {
+    heading: 'Offices',
+    subheadingFirst:
+      'B-104, Titanium Square, Thaltej, S.G. Highway, Ahmedabad - 380054',
+    subheadingSecond: '+91 98785 56894',
+  },
+  {
+    heading: 'Emails',
+    SubHeading: 'Build your team:',
+    subheadingFirst: 'company@gmail.com',
+    Subheading: 'We are hiring',
+    subheadingSecond: 'hr@gmail.com',
+  },
+];

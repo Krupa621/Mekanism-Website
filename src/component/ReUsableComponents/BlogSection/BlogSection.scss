@@ -1,0 +1,117 @@
+.Latest-insights {
+  display: none;
+}
+
+.blogsection-wrapper {
+  max-width: 1266px;
+  margin: auto;
+
+  .blogcard-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.text-wrapper-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65.93%;
+  margin: auto;
+  max-width: 1266px;
+  h2 {
+    color: #1b1b1b;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 600;
+    color: #1b1b1b;
+    font-size: 40px;
+  }
+  .title {
+    display: none;
+  }
+
+  button {
+    justify-content: flex-end;
+    display: flex;
+    height: 48px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    border-radius: 24px;
+    background: #e4a1f9;
+    color: var(--color-purple-primary);
+    border: none;
+    i {
+      color: var(--color-purple-primary);
+      font-size: 20px;
+    }
+  }
+}
+.blogcard-container {
+  // margin: 60px 0;
+}
+@media screen and (max-width: 1200px) {
+  .blogsection-wrapper {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .blogsection-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Latest-insights {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+  }
+  .blogsection-wrapper {
+    width: 93.75%;
+    overflow: scroll;
+    margin-bottom: 80px;
+
+    .blogcard-container {
+      width: 144%;
+      margin-top: 0px;
+    }
+  }
+  .text-wrapper-blog {
+    width: 93.75%;
+    h2 {
+      display: none;
+    }
+    .title {
+      display: block;
+      color: #1b1b1b;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 60px;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .Latest-insights {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .blogsection-wrapper {
+    width: 91.11%;
+    .blogcard-container {
+      width: 254%;
+    }
+  }
+  .text-wrapper-blog {
+    .button {
+      display: none;
+    }
+    .title {
+      font-size: 22px;
+    }
+  }
+}

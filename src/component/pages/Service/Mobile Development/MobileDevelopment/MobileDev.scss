@@ -1,0 +1,28 @@
+.mobileTitle {
+  max-width: 737px;
+}
+.mobile-header {
+  background: linear-gradient(
+    130deg,
+    #d4eef3 0%,
+    #d7eaef 24.83%,
+    #e2ecf0 52.96%,
+    #e9e2f1 76.92%,
+    #deceec 100%
+  );
+}
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .mobile-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .mobile-container {
+    gap: 40px;
+  }
+}

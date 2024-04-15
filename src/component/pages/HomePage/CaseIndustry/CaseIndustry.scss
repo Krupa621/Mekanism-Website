@@ -1,0 +1,32 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.CoreExpertise {
+  // margin: 140px auto 80px;
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+
+  h2 {
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  p {
+    margin-bottom: 30px;
+    color: var(--text-color);
+    max-width: 540px;
+    @media screen and (max-width: $medium) {
+      margin-bottom: 10px;
+      max-width: 408px;
+    }
+  }
+  @media screen and (max-width: $medium) {
+    max-width: 720px;
+  }
+  @media screen and (max-width: $extra-small) {
+    max-width: 328px;
+  }
+}

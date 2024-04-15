@@ -1,0 +1,50 @@
+.crm-lifecycle-wrapper {
+  max-width: 1266px;
+  margin: auto;
+  .crm-lifecycle-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    h2 {
+      width: 31.43%;
+    }
+    p {
+      width: 46.84%;
+    }
+  }
+  .lifecycle-content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .crm-lifecycle-wrapper {
+    max-width: 720px;
+    .crm-lifecycle-text-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      h2 {
+        width: 40%;
+      }
+      p {
+        width: 70%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .crm-lifecycle-wrapper {
+    max-width: 328px;
+    .crm-lifecycle-text-wrapper {
+      margin-bottom: 20px;
+      h2 {
+        width: auto;
+      }
+      p {
+        width: auto;
+      }
+    }
+  }
+}

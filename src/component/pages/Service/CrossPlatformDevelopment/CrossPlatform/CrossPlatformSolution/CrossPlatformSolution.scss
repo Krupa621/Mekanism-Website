@@ -1,0 +1,52 @@
+.crossplatform-solution-wrapper {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  .crosssolution-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      width: 51.5%;
+      font-weight: 600;
+    }
+    p {
+      font-weight: 400;
+      width: 32.52%;
+    }
+  }
+  .crosssolution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .crossplatform-solution-wrapper {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .crossplatform-solution-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .crossplatform-solution-wrapper {
+    // width: 93.75%;
+    max-width: 720px;
+    .crosssolution-text-wrapper {
+      flex-direction: column;
+      h2 {
+        width: auto;
+      }
+      p {
+        width: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .crossplatform-solution-wrapper {
+    max-width: 328px;
+  }
+}

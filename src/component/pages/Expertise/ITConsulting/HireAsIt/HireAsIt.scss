@@ -1,0 +1,45 @@
+.hire-as-it-wrapper {
+  max-width: 1266px;
+  margin: auto;
+  .hireasit-text-wrapper {
+    h1 {
+      width: 52.13%;
+    }
+  }
+  .memberdetailspart-container {
+    display: flex;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hire-as-it-wrapper {
+    max-width: 720px;
+    .hireasit-text-wrapper {
+      h1 {
+        width: 63.13%;
+      }
+    }
+    .memberdetailspart-container {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .hire-as-it-wrapper {
+    // max-width: 1266px;
+    max-width: 328px;
+    .hireasit-text-wrapper {
+      h1 {
+        width: auto;
+      }
+    }
+    .memberdetailspart-container {
+      .detailcontent-container {
+        .detailtext {
+          font-size: 12px !important;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

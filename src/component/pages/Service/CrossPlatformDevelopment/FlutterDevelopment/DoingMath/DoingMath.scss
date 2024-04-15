@@ -1,0 +1,57 @@
+.doing-math-wrapper {
+  max-width: 1266px;
+  margin: auto;
+  .doing-math-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    p {
+      width: 31.35%;
+    }
+  }
+}
+.graph-math-container {
+  overflow: unset;
+}
+@media screen and (max-width: 1200px) {
+  .doing-math-wrapper {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .doing-math-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .doing-math-wrapper {
+    max-width: 720px;
+    .doing-math-text-wrapper {
+      display: flex;
+      flex-direction: column;
+      p {
+        width: 46.35%;
+      }
+    }
+  }
+  .graph-math-container {
+    overflow: unset;
+  }
+}
+@media screen and (max-width: 580px) {
+  .doing-math-wrapper {
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .doing-math-wrapper {
+    max-width: 328px;
+    .doing-math-text-wrapper {
+      p {
+        width: auto;
+      }
+    }
+  }
+  .graph-math-container {
+    overflow: auto;
+  }
+}

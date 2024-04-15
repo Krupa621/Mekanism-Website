@@ -1,0 +1,42 @@
+.strenghts-wrapper {
+  max-width: 1266px;
+  // width: 68.75%;
+  margin: auto;
+  h2 {
+    width: 47.47%;
+    margin-bottom: 60px;
+  }
+  .strenghts-info {
+    max-width: 1208px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    .goodchoice-info {
+    }
+  }
+}
+@media (max-width: 768px) {
+  .strenghts-wrapper {
+    // max-width: 1266px;
+    width: 93.75%;
+    h2 {
+      width: 49.47%;
+      margin-bottom: 40px;
+    }
+    .strenghts-info {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .strenghts-wrapper {
+    width: 91.11%;
+    h2 {
+      width: auto;
+    }
+    .strenghts-info {
+      gap: 1rem;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.tabletview-menubar-wrapper {
+  position: absolute;
+  width: 100%;
+  left: -0.5px;
+  top: 10px;
+  padding: 20px 0px 28px 0px;
+  background: var(--color-white);
+  .tabletview-titlebar {
+    width: 92%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    .logo-button {
+      display: flex;
+      gap: 10px;
+      width: 40.55%;
+      .logo {
+        width: 65.41%;
+      }
+    }
+    i {
+      font-size: 26px;
+    }
+  }
+  .bottompart-tableview-menu {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    .link-content {
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+      .servicelink-content {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        h3 {
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 22px;
+          color: var(--font-color);
+        }
+        .subcontent {
+          display: flex;
+          gap: 11px;
+          i {
+            font-size: 20px;
+            color: var(--primary-color);
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: var(--font-color);
+          }
+        }
+      }
+    }
+    .link-name {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--font-color);
+      }
+      i {
+        font-size: 12px;
+      }
+    }
+  }
+  .button-tabletviewmenu {
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 8px 14px;
+      gap: 10px;
+      width: 106px;
+      background:#324FF1;
+      border-radius: 20px;
+      border: none;
+      font-weight: 400;
+      font-size: 15px;
+      color: var(--color-white);
+    }
+  }
+}
+@media (max-width: 360px) {
+  .tabletview-menubar-wrapper {
+    padding: 10px 0px 30px 0px;
+    .tabletview-titlebar {
+      width: 91.11%;
+      .logo-button {
+        width: 67.98%;
+        .logo {
+          width: 65%;
+        }
+        .hirindbutton {
+          width: 88px;
+        }
+      }
+      i {
+        font-size: 21px;
+      }
+    }
+    .bottompart-tableview-menu {
+      gap: 12px;
+      .link-name {
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+    .button-tabletviewmenu {
+      button {
+        width: 83px;
+        font-size: 12px;
+        padding: 6px 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.rightside-content-wrapper {
+  border-radius: 40px 0px 0px 40px;
+  background: #f1f1f1;
+  padding: 60px 0px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  .rightside-content-text-wrapper {
+    .header-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 64%;
+      margin: auto;
+      .list-wrapper {
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .rightside-content-wrapper {
+    display: none;
+  }
+}

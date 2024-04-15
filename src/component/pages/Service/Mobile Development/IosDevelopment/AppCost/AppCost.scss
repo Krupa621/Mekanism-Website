@@ -1,0 +1,52 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.AppCostContainer {
+  background: #0044a4;
+  display: flex;
+  gap: 3rem;
+  h2 {
+    font-weight: 600;
+    color: var(--color-white);
+    margin: 0;
+    padding: 130px 100px 130px 340px;
+    border-radius: 0 30px 30px 0/0 200px 200px 0;
+    max-width: 730px;
+    background: rgb(50, 79, 241);
+    @media screen and (max-width: $large) {
+      padding: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background: unset;
+    }
+  }
+  .appCostInfo {
+    padding: 130px 260px 130px 20px;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    p {
+      margin: 0;
+      color: var(--color-white);
+      max-width: 407px;
+      @media screen and (max-width: $large) {
+        max-width: unset;
+      }
+    }
+    div {
+      width: 100%;
+      button {
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 24px;
+        background: #fff;
+        border: 0;
+      }
+    }
+  }
+}

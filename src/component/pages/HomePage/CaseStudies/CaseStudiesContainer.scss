@@ -1,0 +1,28 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.CaseStudies_container {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  @media screen and (max-width: $medium) {
+    max-width: 720px;
+  }
+  h2 {
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: var(--text-color);
+
+    @media screen and (max-width: $medium) {
+      margin: 0 20px;
+    }
+  }
+  span {
+    @media screen and (max-width: $medium) {
+      margin: 0 20px;
+    }
+  }
+}

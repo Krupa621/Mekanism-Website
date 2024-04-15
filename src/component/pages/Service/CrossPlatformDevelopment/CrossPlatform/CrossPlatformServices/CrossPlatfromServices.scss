@@ -1,0 +1,89 @@
+.CrossPlatformServices-wrapperr {
+  max-width: 1266px;
+  .DevSection_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+  }
+  .services-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      color: var(--black-txt-color);
+      font-weight: 600;
+      width: 42.41%;
+    }
+    p {
+      color: var(--black-txt-color);
+      width: 35.15%;
+    }
+  }
+  .crossservice-wrapper {
+    width: 44.66%;
+    border-radius: 40px;
+    background: #fdf5fe;
+    button {
+      display: flex;
+      height: 48px;
+      padding: 10px 20px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 24px;
+      background: #e489c8;
+      color: var(--color-purple-primary);
+      border: none;
+      i {
+        color: var(--color-purple-primary);
+        font-size: 20px;
+      }
+    }
+    &:hover {
+      background-color: #fcd6fa;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .CrossPlatformServices-wrapperr {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .CrossPlatformServices-wrapperr {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .CrossPlatformServices-wrapperr {
+    max-width: 618px;
+    .services-text-wrapper {
+      display: block;
+      margin-bottom: 40px !important;
+      h2 {
+        width: 86.89%;
+      }
+      p {
+        width: 66.33%;
+      }
+    }
+  }
+
+  .devSection_content {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .CrossPlatformServices-wrapperr {
+    max-width: 328px;
+    .services-text-wrapper {
+      display: block;
+      margin-bottom: 40px !important;
+      h2 {
+        width: auto;
+      }
+      p {
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.serviceofpages-wrapper {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  .serviceofpages-text-wrapper {
+    // width: 45.71%;
+    max-width: 31rem;
+    h3 {
+      color: var(--color-txt-light);
+    }
+    .pages-name {
+      display: flex;
+      justify-content: space-between;
+      h4 {
+        color: var(--text-colo);
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .serviceofpages-wrapper {
+    width: 93.75%;
+    .serviceofpages-text-wrapper {
+      width: 67.22%;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .serviceofpages-wrapper {
+    width: 91.11%;
+    .serviceofpages-text-wrapper {
+      width: auto;
+    }
+  }
+}

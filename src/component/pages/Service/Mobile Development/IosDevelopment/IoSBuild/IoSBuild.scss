@@ -1,0 +1,30 @@
+.IoSBuildContainer {
+  margin: 140px auto 60px;
+  background: var(--mekansim,#324FF1);
+  .IoSBuildWrapper {
+    max-width: 1266px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    padding: 100px 10px 0;
+    .IoSBuildContent {
+      max-width: 610px;
+      h3 {
+        font-weight: 600;
+        color: var(--color-white);
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+        color: var(--color-white);
+      }
+    }
+    .IoSBuildImage {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

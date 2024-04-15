@@ -1,0 +1,54 @@
+.Designformobileweb-wrapper {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  .designformobile-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    h2 {
+      width: 28.9%;
+    }
+    p {
+      width: 39.49%;
+    }
+  }
+  .designcards-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Designformobileweb-wrapper {
+    width: 93.75%;
+    .designformobile-text-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      h2 {
+        width: 34.9%;
+      }
+      p {
+        width: 55.49%;
+      }
+    }
+    .designcards-container {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .Designformobileweb-wrapper {
+    width: 91.11%;
+    .designformobile-text-wrapper {
+      h2 {
+        width: auto;
+      }
+      p {
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.WebDevTitleDetails {
+  border-radius: 60px;
+  background: linear-gradient(
+    130deg,
+    #ecb4b5 0%,
+    #eacad9 24.83%,
+    #ecccf4 52.96%,
+    #d4d1f2 76.92%,
+    #a4d2f1 100%
+  );
+  margin: 20px auto;
+  max-width: 1462px;
+  padding: 20px 98px 0 !important;
+}
+.webinfowidth {
+  max-width: 651px;
+}
+@media screen and (max-width: 768px) {
+  .TechItems {
+    gap: 20px !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .TechItems {
+    gap: unset !important;
+    overflow: hidden;
+  }
+}

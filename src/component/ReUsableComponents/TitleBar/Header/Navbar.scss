@@ -1,0 +1,94 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.navbarContainer {
+  width: 86.59%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: $medium) {
+    margin: auto;
+    width: 93.75%;
+  }
+
+  .navbarLogoSide {
+    display: flex;
+    gap: 10px;
+    // width: 29.67%;
+    align-items: flex-start;
+    img {
+      width: 70.27%;
+      @media screen and (max-width: $extra-small) {
+        width: 67%;
+      }
+    }
+    p {
+      margin: 0;
+      border-radius: 12px;
+      background: var(--color-btn-bg);
+      padding: 0px 10px;
+      font-weight: 600;
+      color: var(--color-purple-primary);
+    }
+    @media screen and (max-width: $medium) {
+      width: 40.55%;
+    }
+    @media screen and (max-width: $extra-small) {
+      width: 123.96%;
+    }
+  }
+  .navbarContentDetails {
+    // width: 60.32%;
+    .listItems {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      cursor: pointer;
+      flex-wrap: wrap;
+      @media screen and (max-width: $medium) {
+        display: none;
+      }
+    }
+    .MenuIcon {
+      display: none;
+      @media screen and (max-width: $medium) {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    @media screen and (max-width: $extra-large) {
+      gap: 10px;
+    }
+    .navContent {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      @media screen and (max-width: $extra-large) {
+        gap: 10px;
+      }
+      p {
+        margin: 0;
+        font-weight: 400;
+        color: var(--color-black);
+        &:hover {
+          color: var(--color-txt-light);
+        }
+      }
+    }
+    div {
+      button {
+        border-radius: 24px;
+        background: var(--color-purple-primary);
+        padding: 10px 20px;
+        border: none;
+        color: var(--color-white);
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.Coreindustry {
+  // margin: 30px auto;
+  // max-width: 1266px;
+  @media screen and (max-width: $medium) {
+    margin: 0;
+  }
+  h2 {
+    font-weight: 600;
+    color: var(--text-color);
+    @media screen and (max-width: $medium) {
+      margin: 0 20px;
+    }
+  }
+  p {
+    max-width: 540px;
+    margin-bottom: 60px;
+    color: var(--text-color);
+
+    @media screen and (max-width: $medium) {
+      margin: 0 20px 10px;
+      max-width: 408px;
+    }
+    @media screen and (max-width: $extra-medium) {
+      margin: 0 20px 0;
+    }
+  }
+  .CoreExpertiesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 0;
+    @media screen and (max-width: $medium) {
+      grid-template-columns: 1fr;
+      margin: 0 0 30px;
+    }
+  }
+  .CoreExpertiesCustomer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    @media screen and (max-width: $medium) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: $extra-medium) {
+      grid-template-columns: 1fr;
+      margin: 0;
+    }
+  }
+}

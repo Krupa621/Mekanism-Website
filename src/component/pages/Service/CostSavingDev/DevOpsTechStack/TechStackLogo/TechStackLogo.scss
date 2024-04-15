@@ -1,0 +1,31 @@
+.techstacklogo-wrapper {
+  flex-grow: 1;
+
+  .techstack-logo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    gap: 5rem;
+    .logo-name {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      img {
+        width: 32.23%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .techstacklogo-wrapper {
+    .techstack-logo-wrapper {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      .logo-name {
+        img {
+          width: 32.23%;
+        }
+      }
+    }
+  }
+}

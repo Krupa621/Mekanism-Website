@@ -1,0 +1,36 @@
+.processofdesign-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 50%;
+  }
+  .processofdesign-text-wrapper {
+    width: 35%;
+    h3 {
+      color: #06f;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .processofdesign-wrapper {
+    align-items: flex-start;
+    flex-direction: column-reverse !important;
+    width: 85.83%;
+    margin: auto;
+    img {
+      width: 100%;
+    }
+    .processofdesign-text-wrapper {
+      width: auto;
+      h3 {
+        color: #06f;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .processofdesign-wrapper {
+    width: auto;
+  }
+}

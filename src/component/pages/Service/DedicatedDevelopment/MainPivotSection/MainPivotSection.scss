@@ -1,0 +1,60 @@
+.mainpivotsection-wrapper {
+  max-width: 1266px;
+  // width: 68.75%;
+  margin: auto;
+  .mainpivotsection-hedaing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    h2 {
+      width: 47.31%;
+    }
+    p {
+      width: 39.17%;
+    }
+  }
+  .mainpivotsection-info {
+    display: flex;
+    justify-content: space-between;
+    .mainpivotsection-info-text {
+      width: 21.88%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .mainpivotsection-wrapper {
+    width: 93.75%;
+    .mainpivotsection-hedaing {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      h2 {
+        width: 51.31%;
+      }
+      p {
+        width: 47.17%;
+      }
+    }
+    .mainpivotsection-info {
+      flex-direction: column;
+      .mainpivotsection-info-text {
+        width: auto;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .mainpivotsection-wrapper {
+    width: 91.11%;
+    .mainpivotsection-hedaing {
+      margin-bottom: 20px;
+      h2 {
+        width: auto;
+      }
+      p {
+        width: auto;
+      }
+    }
+  }
+}

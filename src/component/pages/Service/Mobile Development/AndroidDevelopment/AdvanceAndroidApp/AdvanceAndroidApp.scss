@@ -1,0 +1,22 @@
+.AdvanceContainer {
+  background-color: var(--color-footer);
+  padding: 90px 0 40px;
+  .AdvanceWrapper {
+    .AdvanceContent {
+      max-width: 1266px;
+      margin: 20px auto 70px;
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        font-weight: 600;
+        color: var(--color-white);
+        max-width: 540px;
+      }
+      p {
+        margin-top: 20px;
+        color: var(--color-white);
+        max-width: 490px;
+      }
+    }
+  }
+}

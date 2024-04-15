@@ -1,0 +1,69 @@
+.reducecostcard-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  img {
+    width: 54.34%;
+  }
+  .reducecost-rightpart {
+    width: 40.91%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    .card-time {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .card-cost {
+      display: flex;
+      justify-content: space-between;
+    }
+    .dart-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 35px;
+      }
+      h2 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .reducecostcard-wrapper {
+    flex-direction: column;
+    gap: 20px;
+
+    img {
+      width: 100%;
+    }
+    .reducecost-rightpart {
+      width: 100%;
+      .card-cost {
+        display: flex;
+        gap: 168px;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .reducecostcard-wrapper {
+    margin-top: 20px;
+    .reducecost-rightpart {
+      gap: 0px;
+      .card-time {
+        grid-template-columns: 1fr;
+      }
+      .card-cost {
+        flex-direction: column;
+        gap: 0px;
+      }
+    }
+  }
+}

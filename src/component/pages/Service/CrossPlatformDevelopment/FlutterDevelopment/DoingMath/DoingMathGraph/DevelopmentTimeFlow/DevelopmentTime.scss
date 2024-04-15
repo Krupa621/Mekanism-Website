@@ -1,0 +1,55 @@
+.developmentflow-wrapper {
+  display: flex;
+  margin-top: 40px;
+  .flow-leftside {
+    width: 78.48%;
+    position: relative;
+    .hour-wrapper {
+      display: flex;
+      .line-1 {
+        width: 1px;
+        height: 280px;
+        background: #dcdcdc;
+      }
+      .line {
+        width: 1px;
+        height: 280px;
+        background: #dcdcdc;
+        margin-left: 22%;
+      }
+    }
+    .progress-container {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      position: absolute;
+      top: 5rem;
+      width: 100%;
+    }
+  }
+  .flow-rightside {
+    width: 41.58%;
+    border-radius: 24px;
+    background: var(--color-white);
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.04);
+    padding: 64px 139px 64px 36px;
+    align-items: center;
+    .persantage {
+      display: flex;
+      gap: 11px;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .flow-rightside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .developmentflow-wrapper {
+    .flow-rightside {
+      display: none;
+    }
+  }
+}

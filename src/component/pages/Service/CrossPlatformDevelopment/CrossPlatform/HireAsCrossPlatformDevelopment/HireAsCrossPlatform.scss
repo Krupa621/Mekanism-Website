@@ -1,0 +1,46 @@
+.hireascrossplatform-wrapper {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  h1 {
+    font-weight: 600;
+  }
+  .memberdetailspart-container {
+    display: flex;
+    gap: 30px;
+    .detailcontent-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 68.87%;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hireascrossplatform-wrapper {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hireascrossplatform-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hireascrossplatform-wrapper {
+    // width: 93.75%;
+    max-width: 720px;
+    .memberdetailspart-container {
+      flex-direction: column-reverse;
+      .detailcontent-container {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .hireascrossplatform-wrapper {
+    // width: 91.11%;
+    max-width: 328px;
+  }
+}

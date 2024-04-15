@@ -1,0 +1,23 @@
+.BackendInfoContainer {
+  max-width: 1266px;
+  margin: 140px auto 60px;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  .BackendInfoWrapper {
+    .BackendInfoContent {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      h3 {
+        margin: 0;
+        font-weight: 400;
+        color: var(--black-txt-color);
+      }
+    }
+  }
+}

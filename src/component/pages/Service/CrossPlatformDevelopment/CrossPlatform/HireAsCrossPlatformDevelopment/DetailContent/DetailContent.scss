@@ -1,0 +1,19 @@
+.DetailContent-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  i {
+    font-size: 24px;
+    color: rgba(50, 79, 241, 1);
+  }
+  .detailcontent-text-wrapper {
+    h2 {
+      font-weight: 600;
+      color: var(--black-txt-color);
+    }
+    p {
+      font-weight: 400;
+      color: var(--black-txt-color);
+    }
+  }
+}

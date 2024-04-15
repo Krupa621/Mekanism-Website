@@ -1,0 +1,26 @@
+.hiringbutton-wrapper {
+  width: fit-content;
+  padding: 0px 10px;
+  gap: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #e995ec;
+  background: #bd1da7;
+
+  &:hover {
+    background: #db6fcd;
+    color: var(--color-white);
+  }
+}
+@media (max-width: 768px) {
+  .hiringbutton-wrapper {
+    padding: 4px;
+  }
+}
+@media (max-width: 360px) {
+  .hiringbutton-wrapper {
+    width: 70px;
+  }
+}

@@ -1,0 +1,25 @@
+.CRM-header {
+  background: linear-gradient(
+    130deg,
+    #f2d1d4 0%,
+    #ecd1d4 24.83%,
+    #f3e6e9 52.96%,
+    #dadfec 76.92%,
+    #c2cde6 100%
+  );
+}
+.CRM-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .CRM-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .CRM-container {
+    gap: 40px;
+  }
+}

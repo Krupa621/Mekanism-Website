@@ -1,0 +1,25 @@
+.designtool-wrapper {
+  // width: 65.93%;
+  max-width: 1266px;
+  margin: auto;
+  .designtool-textwrapper {
+    width: 62.4%;
+    margin-bottom: 40px;
+  }
+  .designtool-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .designtool-wrapper {
+    width: 93.75%;
+    .designtool-textwrapper {
+      width: auto;
+    }
+    .designtool-container {
+      flex-direction: column;
+    }
+  }
+}

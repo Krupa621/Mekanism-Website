@@ -1,0 +1,30 @@
+.howitswork-wrapper {
+  background: #f8f8fb;
+  padding: 40px 0px 40px 0px;
+  overflow: hidden;
+  .howitswork-contant {
+    max-width: 1620px;
+    margin-left: auto;
+    p {
+      width: 45.98%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .howitswork-wrapper {
+    .howitswork-contant {
+      width: 93.75%;
+      margin: auto;
+      p {
+        width: auto;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .howitswork-wrapper {
+    .howitswork-contant {
+      width: 91.11%;
+    }
+  }
+}

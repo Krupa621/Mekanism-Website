@@ -1,0 +1,29 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+.queContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  h2 {
+    max-width: 330px;
+    font-weight: 600;
+    color: var(--text-color);
+    @media screen and (max-width: $large) {
+      max-width: unset;
+    }
+  }
+  p {
+    max-width: 480px;
+    margin: 0;
+    color: var(--text-color);
+    font-weight: 400;
+    @media screen and (max-width: $large) {
+      max-width: unset;
+    }
+  }
+}

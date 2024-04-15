@@ -1,0 +1,44 @@
+.flowlink-wrapper {
+  margin: auto;
+  // width: 93.99%;
+
+  .flowlink {
+    width: 95%;
+    height: 49px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    h3 {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      min-width: 175px;
+      &.active {
+        color: var(--color-purple-primary);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .flowlink-wrapper {
+    width: 93.99%;
+    margin: auto;
+    .flowlink {
+      width: 165%;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .flowlink-wrapper {
+    .flowlink {
+      width: 285%;
+      h3 {
+        font-size: 12px;
+      }
+    }
+  }
+}

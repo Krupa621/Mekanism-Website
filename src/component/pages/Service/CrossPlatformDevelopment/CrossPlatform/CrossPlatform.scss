@@ -1,0 +1,36 @@
+.cross-header {
+  background: linear-gradient(
+    131deg,
+    #ccf2f4 0%,
+    #d8f0f3 24.83%,
+    #deedef 52.96%,
+    #e0d7e9 76.92%,
+    #e3c4e4 100%
+  );
+}
+.crossplatform-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 992px) {
+  .service_title_container_cross {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_title_container_cross {
+    max-width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+    // padding: 10px 24px 50px;
+  }
+  .crossplatform-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .crossplatform-container {
+    gap: 40px;
+  }
+}

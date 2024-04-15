@@ -1,0 +1,39 @@
+.businessTechContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  margin-top: 30px;
+
+  p {
+    font-weight: 400;
+    color: var(--black-txt-color);
+    margin-bottom: 40px;
+    margin-left: 24px;
+  }
+  li {
+    font-weight: 600;
+    color: var(--black-txt-color);
+
+    &::marker {
+      content: '• ';
+      font-size: 40px;
+      color: #0061f2;
+    }
+  }
+
+  div {
+    max-width: 444px;
+  }
+}
+@media screen and (max-width: 968px) {
+  .businessTechContainer {
+    div {
+      max-width: unset;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .businessTechContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

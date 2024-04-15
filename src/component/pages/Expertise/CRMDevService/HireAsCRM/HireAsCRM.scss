@@ -1,0 +1,44 @@
+.hire-as-crm-wrapper {
+  max-width: 1266px;
+  margin: auto;
+  .hireasCrm-text-wrapper {
+    h1 {
+      width: 52.13%;
+    }
+  }
+  .memberdetailspart-container {
+    display: flex;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hire-as-crm-wrapper {
+    max-width: 720px;
+    .hireasCrm-text-wrapper {
+      h1 {
+        width: 63.13%;
+      }
+    }
+    .memberdetailspart-container {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .hire-as-crm-wrapper {
+    max-width: 328px;
+    .hireasCrm-text-wrapper {
+      h1 {
+        width: auto;
+      }
+    }
+    .memberdetailspart-container {
+      .detailcontent-container {
+        .detailtext {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

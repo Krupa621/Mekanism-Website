@@ -1,0 +1,97 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+
+.appCostContainer {
+  border-radius: 60px;
+  background: linear-gradient(
+    224deg,
+    #4c22d4 0%,
+    #0a64d4 33.16%,
+    #07a0ef 67.01%,
+    #01c4e8 100%
+  );
+  padding: 80px 155px;
+  display: flex;
+  margin: 140px auto 60px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1266px;
+
+  @media screen and (max-width: $large) {
+    padding: 60px 40px;
+    border-radius: 0;
+    margin: 0 !important;
+    display: none !important;
+  }
+  .appCostWrapper {
+    p {
+      margin: 0;
+      color: var(--color-white);
+      max-width: 400px;
+    }
+  }
+  .appCostContent {
+    max-width: 360px;
+    h2 {
+      margin: 0;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: var(--color-white);
+    }
+    button {
+      padding: 10px 20px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 24px;
+      background: #fff;
+      border: 0;
+    }
+  }
+}
+// =======mobile view ===========
+.appCostContainerMobView {
+  border-radius: 60px;
+  background: linear-gradient(
+    224deg,
+    #4c22d4 0%,
+    #0a64d4 33.16%,
+    #07a0ef 67.01%,
+    #01c4e8 100%
+  );
+  display: flex;
+  margin: 140px auto 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 155px;
+  display: none;
+  @media screen and (max-width: $large) {
+    display: flex;
+    padding: 50px;
+    border-radius: 0;
+    margin: 80px auto;
+    max-width: 1200px;
+  }
+  h2 {
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--color-white);
+  }
+  p {
+    margin: 0;
+    color: var(--color-white);
+    max-width: 400px;
+  }
+  button {
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    background: #fff;
+    border: 0;
+  }
+}

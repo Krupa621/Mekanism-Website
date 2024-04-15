@@ -1,0 +1,25 @@
+.IT-header {
+  background: linear-gradient(
+    130deg,
+    #e0def3 0%,
+    #d8d6e7 24.83%,
+    #e6e6eb 52.96%,
+    #e0eae7 76.92%,
+    #d8f0e5 100%
+  );
+}
+.it-consulting-container {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+@media screen and (max-width: 768px) {
+  .it-consulting-container {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .it-consulting-container {
+    gap: 40px;
+  }
+}

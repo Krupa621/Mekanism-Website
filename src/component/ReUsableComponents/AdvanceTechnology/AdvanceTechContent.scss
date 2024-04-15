@@ -1,0 +1,51 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.AdvanceIoSAppContainer {
+  background-color: var(--color-footer);
+}
+.techContainer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-footer);
+
+  .techWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1025px;
+    margin: auto;
+
+    @media screen and (max-width: 768px) {
+      justify-content: start;
+      grid-template-columns: 1fr;
+    }
+    @media screen and (max-width: 360px) {
+      max-width: 328px;
+    }
+    div {
+      margin: 30px 40px;
+      ul {
+        font-weight: 600;
+        color: var(--color-white);
+        padding: 0;
+      }
+      li {
+        color: var(--color-white);
+      }
+      h2 {
+        color: #ffff;
+      }
+      h3 {
+        color: #ffff;
+        width: 81%;
+      }
+      @media screen and (max-width: 360px) {
+        margin: auto;
+      }
+    }
+  }
+}

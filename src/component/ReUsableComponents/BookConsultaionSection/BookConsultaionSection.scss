@@ -1,0 +1,99 @@
+.bookconsultaion-wrapper {
+  // width: 68.75%;
+  max-width: 1266px;
+  margin: auto;
+  border-radius: 60px;
+  padding: 80px 0px;
+  background: linear-gradient(
+    224deg,
+    #4c22d4 0%,
+    #0a64d4 33.16%,
+    #07a0ef 67.01%,
+    #01c4e8 100%
+  );
+  .bookconsultaion-text-wrapper {
+    width: 76.69%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+      color: var(--color-white);
+      width: 40.29%;
+    }
+    .bookconsultation-rightpart {
+      width: 49.8%;
+      h1 {
+        font-weight: 600;
+        color: var(--color-white);
+      }
+      button {
+        display: flex;
+        // height: 48px;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 24px;
+        background: var(--color-white);
+        border: none;
+        color: var(--color-purple-primary);
+      }
+    }
+  }
+}
+.bookconsultaion-wrapper-tabletview {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .bookconsultaion-wrapper {
+    display: none;
+  }
+  .bookconsultaion-wrapper-tabletview {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 0px;
+    padding: 80px 0px;
+    background: linear-gradient(
+      224deg,
+      #4c22d4 0%,
+      #0a64d4 33.16%,
+      #07a0ef 67.01%,
+      #01c4e8 100%
+    );
+    .bookconsultaion-text-wrapper {
+      width: 67.49%;
+      margin: auto;
+      p {
+        font-weight: 400;
+        color: var(--color-white);
+        width: auto;
+      }
+
+      h1 {
+        font-weight: 600;
+        color: var(--color-white);
+      }
+      button {
+        display: flex;
+        // height: 48px;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 24px;
+        background: var(--color-white);
+        border: none;
+        color: var(--color-purple-primary);
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .bookconsultaion-wrapper-tabletview {
+    width: 91.11%;
+    .bookconsultaion-text-wrapper {
+      width: 81.09%;
+    }
+  }
+}

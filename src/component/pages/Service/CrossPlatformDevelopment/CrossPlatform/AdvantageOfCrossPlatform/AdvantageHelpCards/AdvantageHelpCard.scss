@@ -1,0 +1,42 @@
+.advantagecard-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 24px;
+  background: #fdf8f5;
+  padding: 30px;
+  .number {
+    width: 141px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    color: #e17a40;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 35px;
+    background: #f5e6dd;
+  }
+  .advantage-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h3 {
+      font-weight: 600;
+      color: var(--black-txt-color);
+    }
+    p {
+      font-weight: 400;
+      color: var(--black-txt-color);
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .advantagecard-wrapper {
+    .number {
+      border-radius: 50px;
+      height: auto;
+      padding: 20px;
+      width: 100px;
+    }
+  }
+}

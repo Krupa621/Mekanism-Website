@@ -1,0 +1,19 @@
+.progressbar-wrapper {
+  width: 100%;
+  .progressbar {
+    border-radius: 18px;
+    display: flex;
+    padding: 6px 210.34px 7px 25px;
+    align-items: center;
+    color: var(--color-white);
+    animation: load 3s normal forwards;
+  }
+}
+@keyframes load {
+  0% {
+    width: 35px;
+  }
+  100% {
+    width: width;
+  }
+}

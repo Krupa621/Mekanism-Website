@@ -1,0 +1,72 @@
+$extra-small: 360px;
+$small: 425px;
+$extra-medium: 580px;
+$medium: 768px;
+$large: 992px;
+
+.AboutContainer {
+  max-width: 1266px;
+  // margin: 140px auto -90px;
+  // width: 65.93%;
+  padding: 0;
+  margin: auto;
+  .AboutWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .explore_btn {
+      display: flex;
+      padding: 10px 20px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 24px;
+      background: #f9a1ea;
+      color: var(--color-purple-primary);
+    }
+    h2 {
+      font-weight: 600;
+      margin-left: 20px;
+      color: var(--text-color);
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+
+      p {
+        margin: 0;
+        font-weight: 400;
+      }
+    }
+  }
+  .AboutContent {
+    display: flex;
+    div {
+      p {
+        margin-bottom: 60px;
+        max-width: 680px;
+        margin-right: 12px;
+        color: var(--text-color);
+      }
+      .aboutImageOne {
+        width: 60%;
+      }
+      .aboutImageTwo {
+        width: 40%;
+      }
+      .aboutImageThree {
+        width: 100%;
+      }
+      div {
+        @media screen and (max-width: $medium) {
+          .aboutImageOne,
+          .aboutImageTwo {
+            // display: none;
+          }
+        }
+      }
+    }
+  }
+}
